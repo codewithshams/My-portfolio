@@ -1,0 +1,50 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.tools-div {
+  width: 100%;
+  height: auto;
+}
+.tools-div h3 {
+  text-align: center;
+  margin: 30px auto;
+}
+.tools-div .tools-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+.tools-div .tools-child .tool {
+  width: 250px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.5s;
+  background-color: rgb(70, 33, 33);
+}
+.tools-div .tools-child .tool:hover {
+  background-color: blueviolet;
+}
+.tools-div .tools-child .tool h5 {
+  font-size: 25px;
+}
+.tools-div .tools-child .tool p {
+  font-size: 17px;
+}
+.tools-div .tool-card {
+    margin: 10px;
+  }
+@media (max-width: 800px) {
+  .tools-div .tool-card {
+    max-width: 230px !important;
+  }
+}
