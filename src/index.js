@@ -8,7 +8,7 @@ import App from './App';
 //     "deploy":"gh-pages -d build",
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename='/base'>
+    <BrowserRouter basename='/first'>
       <Routes>
 
     <Route element={<App  />} exact path='/'/>
