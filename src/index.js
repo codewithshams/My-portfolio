@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import App from './App';
 
 // "homepage": "https://github.com/smahsru/protfolio",
@@ -8,12 +8,7 @@ import App from './App';
 //     "deploy":"gh-pages -d build",
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter >
-      <Routes basename='/first'>
-
-    <Route element={<App  />} exact path='/'/>
-      </Routes>
-    </BrowserRouter>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
